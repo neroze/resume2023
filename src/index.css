@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Mukta:wght@300&display=swap");
+
+:root {
+  --primary: #747bff;
+  --secondary: #c689c6;
+}
+
+body {
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px;*/
+  min-height: 100vh;
+  font-family: ;
+}
+
+:root {
+  /* font-family: "Amatic SC", cursive, Inter, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Mukta", sans-serif, Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #333;
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h5,
+h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h5,
+.highlight {
+  color: var(--primary) !important;
+}
+
+.highlightSecondary {
+  color: var(--secondary) !important;
+}
+.cover_info {
+  line-height: 1.5rem;
+}
+.cover_info::first-letter {
+  font-size: 400%;
+  color: var(--primary) !important;
+  line-height: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
